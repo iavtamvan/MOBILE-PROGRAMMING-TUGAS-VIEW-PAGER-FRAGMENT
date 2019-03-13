@@ -17,8 +17,9 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -38,8 +39,9 @@
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -64,8 +66,9 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -85,8 +88,9 @@
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -111,8 +115,9 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -132,8 +137,9 @@
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -158,8 +164,9 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -179,8 +186,9 @@
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -205,8 +213,9 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -226,8 +235,9 @@
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
-                        android:layout_width="200dp"
+                        android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:layout_weight="1"
                         android:layout_margin="8dp"
                         android:background="@drawable/error_image"
                         android:gravity="bottom"
@@ -247,6 +257,154 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/error_image"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#6A000000"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Elk /n Grove"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp"
+                                android:gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/error_image"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#6A000000"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Elk /n Grove"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp"
+                                android:gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/error_image"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#6A000000"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Elk /n Grove"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp"
+                                android:gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/error_image"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#6A000000"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Elk /n Grove"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp"
+                                android:gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/error_image"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#6A000000"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Elk /n Grove"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp"
+                                android:gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/error_image"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#6A000000"
+                            android:orientation="vertical">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Elk /n Grove"
+                                android:textColor="@android:color/white"
+                                android:textSize="30dp"
+                                android:gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
 
 
         </LinearLayout>
