@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">Biodata Pager</string>
+    <string name="app_name">Tugas :) </string>
+    <string name="Copy">C. </string>
+    <string name="myI">I</string>
+    <string name="myA">A</string>
+    <string name="myV">V</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

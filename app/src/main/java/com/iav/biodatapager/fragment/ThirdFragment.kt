@@ -9,19 +9,18 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.TextView
-
 import com.iav.biodatapager.R
-import com.iav.biodatapager.adapter.TeamAdapter
+import com.iav.biodatapager.adapter.NextMatchAdapter
 import com.iav.biodatapager.model.Item
-import com.iav.biodatapager.presenter.TeamPresenter
+import com.iav.biodatapager.presenter.NextFootballPresenter
 
 /**
  * A simple [Fragment] subclass.
  *
  */
-class FirstFragment : Fragment() {
-    private lateinit var teamAdapter: TeamAdapter
-    private lateinit var teamPresenter: TeamPresenter
+class ThirdFragment : Fragment() {
+    private lateinit var nextFootballPresenter: NextFootballPresenter
+    private lateinit var nextMatchAdapter: NextMatchAdapter
     private var items: ArrayList<Item> = arrayListOf()
 
     override fun onCreateView(
@@ -29,14 +28,13 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view:View = inflater.inflate(R.layout.fragment_first, container, false)
-        val recyclerView:RecyclerView = view.findViewById(R.id.rv)
-        val progressBar:ProgressBar = view.findViewById(R.id.progress)
+        val view: View = inflater.inflate(R.layout.fragment_third, container, false)
+        val recyclerView: RecyclerView = view.findViewById(R.id.rv)
+        val progressBar: ProgressBar = view.findViewById(R.id.progress)
         val tvProgress: TextView = view.findViewById(R.id.tvProgressBar)
-        teamAdapter = TeamAdapter(activity,items)
-        teamPresenter = TeamPresenter(items,activity,recyclerView,teamAdapter, progressBar, tvProgress)
-        teamPresenter.getTeam()
-
+        nextMatchAdapter = NextMatchAdapter(activity, items)
+        nextFootballPresenter = NextFootballPresenter(items,activity, recyclerView, nextMatchAdapter, progressBar, tvProgress)
+        nextFootballPresenter.getNextMatch("4328")
 
         return view
     }
