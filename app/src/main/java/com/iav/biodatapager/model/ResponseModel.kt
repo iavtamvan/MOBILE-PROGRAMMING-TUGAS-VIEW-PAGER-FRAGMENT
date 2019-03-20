@@ -1,3 +1,9 @@
 package com.iav.biodatapager.model
 
-data class ResponseModel(val events: List<Item>, val teams: List<Item>, val player: List<Item>, val players: List<Item>, val event: List<Item>)
+data class ResponseModel(
+    val events: List<Item>,
+    val teams: List<Item>,
+    val player: List<Item>,
+    val players: List<Item>,
+    val event: List<Item>
+)
