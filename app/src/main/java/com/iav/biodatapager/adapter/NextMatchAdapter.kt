@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.iav.biodatapager.R
 import com.iav.biodatapager.model.Item
 import kotlinx.android.synthetic.main.list_next_match.view.*
@@ -33,6 +34,7 @@ class NextMatchAdapter : RecyclerView.Adapter<NextMatchAdapter.ViewHolder> {
         holder.tv_event.text = items?.get(position)?.event
 
         holder.itemView.setOnClickListener({
+            Toast.makeText(context, "[Updated] Final Project UAS Please ", Toast.LENGTH_LONG).show()
             //            val intent = Intent(context, DetailActivity::class.java)
 //            intent.putParcelableArrayListExtra("list", items)
 //            intent.putExtra("posisi", holder.adapterPosition.toString())
