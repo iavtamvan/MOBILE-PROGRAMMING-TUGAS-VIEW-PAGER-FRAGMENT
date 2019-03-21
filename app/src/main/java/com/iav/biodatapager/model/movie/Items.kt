@@ -1,4 +1,4 @@
-package com.iav.biodatapager.movie
+package com.iav.biodatapager.model.movie
 
 import com.google.gson.annotations.SerializedName
 
