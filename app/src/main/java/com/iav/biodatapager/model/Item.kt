@@ -77,9 +77,9 @@ data class Item(
     var tahunBerdiri: String? = null,
 
     @SerializedName("strStadium")
-    var lapangan: String? = null,
+    var strStadium: String? = null,
     @SerializedName("strDescriptionEN")
-    var deskripsi: String? = null,
+    var strDescriptionEN: String? = null,
 
     @SerializedName("idPlayer")
     var idPlayer: String? = null,
@@ -98,6 +98,10 @@ data class Item(
     var fotoPlayer: String? = null,
     @SerializedName("strLeague")
     var strLeague: String? = null,
+    @SerializedName("strKeywords")
+    var strKeywords: String? = null,
+    @SerializedName("strStadiumThumb")
+    var strStadiumThumb: String? = null,
 
     var posisi: String? = null
 )

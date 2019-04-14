@@ -35,7 +35,7 @@ class NextMatchAdapter : RecyclerView.Adapter<NextMatchAdapter.ViewHolder> {
 
         holder.itemView.setOnClickListener({
             Toast.makeText(context, "[Updated] Final Project UAS Please ", Toast.LENGTH_LONG).show()
-            //            val intent = Intent(context, DetailActivity::class.java)
+            //            val intent = Intent(context, DetaiTeamlActivity::class.java)
 //            intent.putParcelableArrayListExtra("list", items)
 //            intent.putExtra("posisi", holder.adapterPosition.toString())
 //            intent.putExtra("id", "${items?.get(position)?.lagaId}")

@@ -1,12 +1,14 @@
 package com.iav.biodatapager.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import com.iav.biodatapager.R
+import com.iav.biodatapager.activity.DetaiTeamlActivity
 import com.iav.biodatapager.model.Item
 import kotlinx.android.synthetic.main.list_team.view.*
 
@@ -32,15 +34,19 @@ class TeamAdapter : RecyclerView.Adapter<TeamAdapter.ViewHolder> {
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.nama.text = items?.get(position)?.teamName
         Glide.with(context)
-            .load(items?.get(position)?.teamBadge).override(512,512).into(holder.image)
+            .load(items?.get(position)?.teamBadge).override(512, 512).into(holder.image)
         holder.legaue.text = items?.get(position)?.strLeague
-        holder.itemView.setOnClickListener({
-            //        val intent = Intent(context, DetailTeamActivity::class.java)
-//        intent.putParcelableArrayListExtra("list",items)
-//        intent.putExtra("posisi", holder.adapterPosition.toString())
-//        intent.putExtra("id" , "${items?.get(position)?.teamId}")
-//        context?.startActivity(intent)
-        })
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, DetaiTeamlActivity::class.java)
+            intent.putExtra("STRTEAM", items?.get(position)?.teamName)
+            intent.putExtra("STRLEAGUE", items?.get(position)?.strLeague)
+            intent.putExtra("STRSTADIUM", items?.get(position)?.strStadium)
+            intent.putExtra("STRKEYWORDS", items?.get(position)?.strKeywords)
+            intent.putExtra("STRSTADIUMTHUMB", items?.get(position)?.strStadiumThumb)
+            intent.putExtra("STRDESCRIPTIONEN", items?.get(position)?.strDescriptionEN)
+            intent.putExtra("STRTEAMBADGE", items?.get(position)?.teamBadge)
+            context?.startActivity(intent)
+        }
     }
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
